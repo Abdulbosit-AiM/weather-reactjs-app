@@ -25,8 +25,8 @@ main {
 }
 
 .search-box {
-  width: 100%;
-  margin: 0 0 75px;
+  width: 40%;
+  margin: 0 auto 4rem;
 }
 
 .search-box #search-bar {
