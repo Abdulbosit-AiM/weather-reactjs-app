@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 const api = {
   key: '160a2a6a225cd6bb6f054adeb461ebbd',
-  base: 'api.openweathermap.org/data/2.5/'
+  base: 'https://api.openweathermap.org/data/2.5/'
 }
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 
     let day = days[d.getDay()]
     let date = d.getDate()
-    let month = months[d.getMonths()]
+    let month = months[d.getMonth()]
     let year = d.getFullYear()
 
     return `${day} ${date} ${month} ${year}`
